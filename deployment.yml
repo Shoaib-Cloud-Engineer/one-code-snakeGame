@@ -16,7 +16,8 @@ spec:
     spec:
         containers:
           - name: snakegame
-            image: shoaibk7/myimg:$BUILD_NUMBER
+            image: shoaibk7/myimg:latest
             ports:
               - containerPort: 8080
+              
       
